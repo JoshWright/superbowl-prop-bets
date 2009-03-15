@@ -1,0 +1,102 @@
+
+  body
+  {
+      background-color:#111;
+      font-family:Sans-Serif;
+      color:#fff;
+  }
+  h1
+  {
+      color:#fff;
+      font-size:4em;
+  }
+  #LoadingIcon
+  {
+      text-align:right;
+      visibility:hidden;
+  }
+  tr.Answers td
+  {
+	  padding:0;
+      font-size:42pt;
+      font-weight:bold;
+  }
+  tr.Answers .Confirmed
+  {
+      color:#0a0;
+  }
+  tr.Answers .Unknown
+  {
+      font-style:italic;
+      color:#444;
+  }
+ 
+  tr.Questions
+  {
+      font-size:10pt;
+      color:#999;
+  }
+  tr.Choices
+  {
+      font-size:6pt;
+      display:none;
+  }
+
+
+  tr.Responses.Odd
+  {
+	background-color:#242424;
+  }
+  tr.Responses.Even
+  {
+	background-color:#1f1f1f;
+  }
+  tr.Responses td.Rank
+  {
+      font-size:20pt;
+  }
+  tr.Responses td.Name
+  {
+      font-size:18pt;
+	padding:0;
+  }
+  tr.Responses td.Points
+  {
+      font-size:18pt;
+      color:#39f;
+      padding-left:8px;
+      padding-right:8px;
+  }
+  tr.Responses td.Response
+  {
+      font-size:22pt;
+      font-weight:bold;
+  }
+  tr.Responses td.Response.Correct
+  {
+      color:#090;
+ }
+  tr.Responses td.Response.Incorrect
+  {
+      color:#900;
+  }
+  tr.Responses td.Response.Undecided
+  {
+      color:#666;
+	  font-style:italic;
+  }
+  tr.Responses td.Response span.Value
+  {
+      font-size:8pt;
+      font-weight:normal;
+  }
+
+
+
+
+
+  td
+  {
+      padding:6px 0 6px 0;
+      text-align:center;
+  }
